@@ -1,0 +1,78 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}
+
+/* custom reset Mackvagas */
+html,body{ text-align: center; height: 100%; margin: 0; padding: 0; background-color: #FFF; }
+body{
+    height: auto !important; height: 100%; min-height: 100%;
+    background-color: #FFF;
+}
+
+/* 
+  end reset 
+
+  functions
+*/
+
+.hide,              /*oculta o elemento*/
+.hide_this,
+  .hide_child *
+{ display: none; }
+.icon,             /*oculta o texto*/
+.icon_this,
+  .icon_child *,
+.iconO,            /*opacidade de 50%*/
+.iconO_this,
+  .iconO_child *,
+a.bot,                /*move a imagem 0 -30px*/
+a.bot_this,
+  .bot_child a,
+.img,
+.img_this,
+  .img_child *
+{
+  display: block;
+  padding: 0; border: 0; outline: 0; margin: 0;
+  background-color: transparent; background-repeat: no-repeat;  background-position: 0 0;
+  text-align: left; font-size: 0;  line-height: 0; text-indent: -9999px;
+}
+a.icon,
+a.icon_this,
+  .icon_child a{ cursor: pointer; }
+
+a.iconO:active,a.iconO:hover,a.iconO:focus,
+a.iconO_this:active,a.iconO_this:hover,a.iconO_this:focus,
+    a.iconO_child *:active,a.iconO_child *:hover,a.iconO_child *:focus
+{ opacity: .5; -moz-opacity: .5; -khtml-opacity: .5; filter: alpha(opacity=50); cursor: pointer; }
+
+a.bot:hover, a.bot:active,a.bot:focus,
+a.bot_this:hover,a.bot_this:active,a.bot_this:focus,
+  .bot_child a:hover,.bot_child a:active, .bot_child a:focus
+{ cursor: pointer; background-position: 0 -30px; }
+
+.img,
+.img_this,
+  .img_child *
+{
+  background-position: center;  
+}
+.clearFull{   /* d� o clear nos floats */
+    display: block; clear: both; visibility: hidden;
+    height: 0;
+    padding: 0; border: 0; outline: 0; margin: 0;
+    text-align: left; text-indent: -9999px; content: ""; font-size: 0; line-height: 0;
+    color: red; background-color: red;
+}
+.div10{ height: 10px; } .div15{ height: 15px; }
+.div20{ height: 20px; } .div25{ height: 25px; }
+.div30{ height: 30px; } .div35{ height: 35px; }
+.div40{ height: 40px; } .div45{ height: 45px; }
+.div50{ height: 50px; } .div55{ height: 55px; }
+.div60{ height: 60px; } .div66{ height: 65px; }
+.div70{ height: 70px; } .div75{ height: 75px; }
+.div80{ height: 80px; } .div85{ height: 85px; }
+.clear:after{ content: "."; line-height: 0; clear: both; display: block; visibility: hidden;  }
+
+/* 
+  end functions
+*/

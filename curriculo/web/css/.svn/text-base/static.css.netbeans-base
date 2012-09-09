@@ -1,0 +1,259 @@
+/*usar para fazer as partes que se repetem no site, porém uma única vez por página ex: header, footer, menu*/
+@import url(core.css);
+@import url(module.css);
+@import url(grid.css);
+
+html, body{
+    background-image: url(../images/fundo_master.jpg);
+    background-repeat: repeat;
+}
+
+.header{
+    background-image: url(../images/fundo_header_menu.jpg);
+    background-repeat: repeat-x;
+    position: relative;
+    height: 500px;
+}
+.outras_pg{
+    height: 280px;
+}
+.header_box_3{
+    background-color: #000;
+    position: absolute;
+    width: 900px;
+    height: 33px;
+    margin: 0 auto;
+    top: -30px;
+    left: 24px;
+}
+.content_header{
+    width: 934px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.principal_title{
+    font: 36px "century gothic", verdana, "sans serif";
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    width: 940px;
+    margin: 0 auto;
+    margin-top:  18px;
+    
+}
+.lista{
+    font: 11px "century gothic", verdana, "sans serif";
+    position: absolute;
+    top: 33px;
+    right: 0;
+    
+}
+.lista li{
+    display: inline;
+    padding-left: 28px;
+}
+
+.lista a{
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lista a:hover{
+    color: #EC111B;
+}
+
+.logo_site{
+    position: absolute;
+    top: 17px;
+    left: 0;  
+}
+
+.img_header{
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.bot_topo{
+    background-image: url(../images/bot_topo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 35px;
+    height: 12px;
+    top: 22px;
+    right: 0;
+}
+
+.bot_voltar{
+    background-image: url(../images/bot_voltar.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 39px;
+    height: 9px;
+    top: 22px;
+    right: 50px;
+}
+.bot_home{
+    background-image: url(../images/bot_home.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 34px;
+    height: 7px;
+    top: 285px;
+    left: 0;
+}
+.sub_footer{
+    width: 944px;
+    height: 60px;
+    top:0;
+    position: relative;
+    margin: 0 auto;
+}
+.footer{
+    background-color: #000;
+    height: 60px;
+    width: 944px;
+    position: relative;
+    top: 0;
+    left: 3px;
+    margin: 0 auto;
+}
+
+.logo_footer{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.adress_footer{
+    font: 12px "century gothic", verdana, "sans serif";
+    color: #FFF;
+    position: absolute;
+    text-align: left;
+    top: 15px;
+    left: 155px;
+    padding-right: 10px;
+}
+.phone_footer{
+    font: 12px "century gothic", verdana, "sans serif";
+    color: #FFF;
+    position: absolute;
+    text-align: right;
+    top: 15px;
+    right: 75px;
+    padding-left: 10px;
+}
+
+.subre_footer{
+    font: 11px "century gothic", verdana, "sans serif";
+    color: #000;
+    position: absolute;
+    width: 940px;
+    top: 60px;
+}
+.direitos_reservados{
+    position: absolute;
+    left: 0;
+
+}
+.web_by{
+    position: absolute;
+    right: 0;
+}
+.title_contato{
+    font: 14px "century gothic", verdana, "sans serif";
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+.content_contato{
+    font: 14px "century gothic", verdana, "sans serif";
+    color: #333;
+    text-align: left;
+    line-height: 120%;
+}
+.last_content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.form_comente{
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 20px;
+}
+.campos{
+    width: 360px;
+    height: 20px;
+    background-color: #fff;
+    font: 11px arial, helvetica, verdana;
+    color:#666;
+    
+}
+input{
+    border:1px solid #333;
+}
+
+select{
+    background-color: #fff;
+    font: 12px arial, helvetica, verdana;
+    color:#666;
+    border:1px solid #333;
+}
+
+label{
+    font: 14px "century gothic", verdana, "sans serif";
+    color: #333;
+    text-align: right;
+    padding-right: 20px;
+}
+
+textarea{
+    background-color: #fff;
+    font: 12px arial, helvetica, verdana;
+    color:#666;
+    border:1px solid #333;
+    height: 100px;
+    width: 360px;
+}
+
+select{
+    width: 361px;
+}
+
+.bot_enviar{
+    background-image: url(../images/bot_form_enviar.png);
+    width: 160px;
+    height: 33px;
+    border: none;
+    position: relative;
+    bottom: -15px;
+    left: 188px;
+}
+
+.bot_limpar{
+    background-image: url(../images/bot_form_limpar.png);
+    width: 109px;
+    height: 13px;
+    border: none;
+    position: relative;
+    bottom: 10px;
+    left: 370px;
+    padding-bottom: 40px;
+}
+
+.bot_ver_mapa_ampliado{
+    background-image: url(../images/bot_ver_mapa_ampliado.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 140px;
+    height: 12px;
+    top: 10px;
+    right: 10px;
+}
+
+.mapa_content{
+    padding-top: 20px;
+}
