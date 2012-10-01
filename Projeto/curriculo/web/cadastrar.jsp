@@ -28,6 +28,7 @@ if (rev == 10 || rev == 11)
 rev = 0;
 if (rev != parseInt(cpf.charAt(10)))
 return false;
+alert('O CPF INFORMADO É VÁLIDO.');
 return true;}
 </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
